@@ -19,4 +19,25 @@ body {
         font-size: 26px;
         line-height: 31px;
         color: #2196F3;
-    
+    }
+    .main-section {
+    background-color:#2F303A;
+    margin-top: 80px;
+    padding-left: 452px;
+    padding-right: 452px;
+    padding-top: 200px;
+    padding-bottom: 280px;
+    color: #ffffff;
+    font-size: 44px;
+    font-family: Roboto;
+
+    }
+    .main-section-button {
+        background-color:#2196F3;
+        height: 50px;
+        width: 200px;
+        margin-top: 30px;
+        color: #ffffff;
+        font-size: 16px;
+        font-family: Roboto;  
+    }
