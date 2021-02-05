@@ -1,43 +1,115 @@
+:root {
+    --black-text: #000000;
+    --white: #FFFFFF;
+    --white-text-op60: #FFFFFF;
+    --light-grey-stroke: #ECECEC;
+    --grey-white-stroke: #EEEEEE;
+    --grey-text: #757575;
+    --dark-graphite-text: #212121;
+    --blue: #2196F3;
+    --graphite-bg: #2F303A;
+    --light-grey-bg: #E5E5E5;
+    --light-grey-bg-team: #F5F4FA;
+}
 
-body { 
-    background-color: white;
-    color: #000000;
-    font-family: Roboto;
-    }
-    
-    .logo {
-        font-family: Raleway;
-        font-weight: 700;
-        font-size: 26px;
-        line-height: 31px;
-        color: #000000;
-    }
-    
-    .web {
-        font-family: Raleway;
-        font-weight: 700;
-        font-size: 26px;
-        line-height: 31px;
-        color: #2196F3;
-    }
-    .main-section {
-    background-color:#2F303A;
-    margin-top: 80px;
-    padding-left: 452px;
-    padding-right: 452px;
-    padding-top: 200px;
-    padding-bottom: 280px;
-    color: #ffffff;
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    background-color: var(--white);
+    color: var(--black-text);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+/* /* .header a {
+    /* color: white; */
+    /* color: inherit; */
+    /* color: currentColor; */
+    /* color: var(--white-text);
+/* }  */
+
+/* .hero {
+    background:cadetblue;
+}
+.hero-btn {
+    background-color: coral;
+} */
+
+.logo {
+    font-size: 26px;
+    line-height: 31px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.web {
+   /* font-family: 'Oleo Script', cursive; */
+   color: var(--blue);
+   font-size: 26px;
+   line-height: 31px;
+   font-family: 'Raleway', sans-serif;
+}
+.title {
+    color: var(--dark-graphite-text);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+}
+
+.hero {
+    background-color: var(--graphite-bg);
+}
+.hero-title {
+    color: var(--white);
+    font-weight: 900;
     font-size: 44px;
-    font-family: Roboto;
+    line-height: 60px;
+    text-align: center;
+}
+.hero-btn {
+    background-color: var(--blue);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    color: var(--white);
+    text-align: center;
+}
 
-    }
-    .main-section-button {
-        background-color:#2196F3;
-        height: 50px;
-        width: 200px;
-        margin-top: 30px;
-        color: #ffffff;
-        font-size: 16px;
-        font-family: Roboto;  
-    }
+.features {
+    background: var(--light-grey-bg);
+}
+
+.title-features {
+    color: var(--dark-graphite-text);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.features-p {
+    color: var(--grey-text);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.team {
+    background: var(--light-grey-bg-team)
+}
+
+.name {
+    color: var(--dark-graphite-text);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.work-position {
+    color: var(--grey-text);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
