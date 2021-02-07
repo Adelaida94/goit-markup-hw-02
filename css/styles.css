@@ -179,3 +179,9 @@ footer {
     line-height: 26px;
 }
 
+.portfolio-names {
+    color: var(--grey-text);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+}
